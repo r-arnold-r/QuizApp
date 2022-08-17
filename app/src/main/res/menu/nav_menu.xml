@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group
+        android:id="@+id/nav_group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/homeFragment"
+            android:icon="@drawable/ic_home"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/quizStartFragment"
+            android:icon="@drawable/ic_quiz_time"
+            android:title="@string/quiz_time" />
+        <item
+            android:id="@+id/profileFragment"
+            android:icon="@drawable/ic_profile"
+            android:title="@string/profile" />
+
+        <item
+            android:id="@+id/questionListFragment"
+            android:icon="@drawable/ic_list_of_questions"
+            android:title="@string/list_of_questions" />
+
+        <item
+            android:id="@+id/questionAddFragment"
+            android:icon="@drawable/ic_new_question"
+            android:title="@string/new_question" />
+    </group>
+
+</menu>

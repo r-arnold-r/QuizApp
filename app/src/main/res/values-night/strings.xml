@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="your_name">Your name</string>
+    <string name="quiz">Quiz</string>
+    <string name="get_started">GET STARTED</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+</resources>

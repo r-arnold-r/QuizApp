@@ -1,0 +1,56 @@
+You can create an emulator to simulate the configuration of a particular type of Android device using a tool like ___.
+Theme Editor
+Android SDK Manager
+AVD Manager
+Virtual Editor
+AVD Manager
+Kotlin fundamentals
+multiple
+What parameter specifies the Android API level that Gradle should use to compile your app?
+minSdkVersion
+compileSdkVersion
+targetSdkVersion
+testSdkVersion
+compileSdkVersion
+Kotlin fundamentals
+multiple
+___ is a way to restrict direct access to some of an object’s fields.
+Score
+LiveData
+Encapsulation
+GameViewModel
+Encapsulation
+Kotlin fundamentals
+multiple
+How to pass the data between activities in Android?
+Intent
+Content Provider
+Broadcast receiver
+None of the Above
+Intent
+Android
+multiple
+How many sizes are supported by Android?
+Android supported all sizes
+Android does not support all sizes
+Android supports small,normal, large and extra-large sizes
+Size is undefined in android
+Android supports small,normal, large and extra-large sizes
+Android
+multiple
+How many threads are there in asyncTask in android?
+Only one
+Two
+AsyncTask doesn't have tread
+None of the Above
+Only one
+Android
+multiple
+What is the time limit of broadcast receiver in android?
+10 sec
+15 sec
+5 sec
+1 hour
+10 sec
+Android
+multiple

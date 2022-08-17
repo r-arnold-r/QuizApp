@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:clickable="true"
+    android:focusable="true"
+    tools:context=".QuestionAddFragment">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="25dp"
+        android:layout_marginBottom="15dp"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/document_img"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="50dp"
+            android:src="@drawable/documents"/>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutPlayerName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:padding="10dp"
+                android:id="@+id/question_et"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:hint="Question placeholder"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:background="@drawable/design_image_bg"/>
+
+            <TextView
+                android:id="@+id/answer_type_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Answers"
+                android:maxLines="1"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/design_image_bg"
+                android:layout_marginTop="25dp">
+
+                <EditText
+                    android:padding="10dp"
+                    android:background="@drawable/design_image_bg"
+                    android:id="@+id/correct_answer"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:hint="Correct answer"
+                    android:textColor="@color/grey"
+                    android:textSize="15sp"
+                    android:backgroundTint="@color/lightOrange"/>
+
+                <EditText
+                    android:padding="10dp"
+                    android:background="@drawable/design_image_bg"
+                    android:id="@+id/answer1"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:hint="Answer"
+                    android:textColor="@color/grey"
+                    android:textSize="15sp"
+                    android:layout_marginTop="15dp"/>
+
+                <EditText
+                    android:padding="10dp"
+                    android:background="@drawable/design_image_bg"
+                    android:id="@+id/answer2"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:hint="Answer"
+                    android:textColor="@color/grey"
+                    android:textSize="15sp"
+                    android:layout_marginTop="15dp"/>
+
+                <EditText
+                    android:padding="10dp"
+                    android:background="@drawable/design_image_bg"
+                    android:id="@+id/answer3"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:hint="Answer"
+                    android:textColor="@color/grey"
+                    android:textSize="15sp"
+                    android:layout_marginTop="15dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/add_question_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add_question"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/lightblue"/>
+
+    </LinearLayout>
+
+</FrameLayout>
